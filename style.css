@@ -1,0 +1,508 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-color: #f0f0f0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 90px;
+    
+}
+
+.menu{
+    display: flex;
+    gap: 60px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 60px;
+    font-size: 1.4em;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu #btnLogin{
+    padding: 5px 30px;
+    background-color: #204E51;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.3em;
+}
+.menu #btnSingUp{
+    padding: 5px 30px;
+    background-color:transparent;
+    color:#204E51;
+    border-radius: 8px;
+    border: #204E51 solid 2px;
+    font-size: 1.3em;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    background-image: url(assets//image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    
+}
+
+.main h1{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 140px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.main p{
+    color: rgb(215, 211, 211);
+    font-weight: 800;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.get-start{
+    display: flex;
+    margin: 90px 0;
+    justify-content: space-around;
+}
+
+.left-get{
+    width: 35%;
+    margin-top: 20px;
+}
+
+.left-get h1{
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.left-get button{
+    background-color: #204E51;
+    color: white;
+    font-size: 1.8em;
+    border-radius: 20px;
+    padding: 8px 30px;
+    border: none;
+    margin-top: 30px;
+
+}
+
+.right-get img{
+width: 500px;
+margin-top: -20px;
+}
+.right-get{
+    position: relative;
+}
+.since{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #204E51;
+    position: absolute;
+    bottom: 40px;
+    left: 28%;
+    
+}
+
+#btonLog{
+     padding: 5px 30px;
+    background-color: #204E51;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.3em;
+    margin-left: 400px;
+    margin-top: 100px;
+    
+}
+
+#btonsing{
+     padding: 5px 30px;
+    background-color:transparent;
+    color:#f8f8f8;
+    border-radius: 8px;
+    border: #204E51 solid 2px;
+    font-size: 1.3em; 
+    margin-left: 30px;
+}
+
+     /* section three */
+
+.our-fea{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.our-fea h1{
+     color: #204E51;
+    font-size: 4em;
+    /* margin-top: 200px; */
+}
+.our-fea p{
+margin-top: 10px;
+}
+
+.fourbx{
+    width: 20%;
+    height: 400px;
+    background-color:#c3b1b1;
+    margin-left: 10px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.fourbx img{
+width: 210px;
+margin-left: 24px;
+margin-top: 50px;
+border-radius: 14px;
+
+}
+#wheat{
+    height: 150px;
+}
+#pumpkin{
+  height: 150px;  
+}
+#Cabbage{
+  height: 150px;  
+}
+
+.fourbx h5{
+    font-size: 2em;
+    color: #204E51;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.fourbx p{
+    margin-left:28px ;
+    margin-top: 24px;
+    font-size: 1em;
+}
+
+.boxsexf{
+    display: flex;
+    justify-content: space-around;
+}
+/* section five */
+#sectionf{
+    text-align: center;
+    margin-top: 120px;
+    color: #204E51;
+    font-weight: 800;
+    margin-bottom: 100px;
+}
+
+.seeAll{
+    width: 100%;
+    height: 400px;
+    background-image: url(assets//Rectangle\ 4.png);
+    /* margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 10px; */
+}
+#seeAll{
+    font-size: 3em;
+    padding-top: 15px;
+    padding-left: 30px;
+    color: #f0f0f0;
+}
+#btnsee{
+    padding: 5px 30px;
+    background-color:transparent;
+    color:#f8f8f8;
+    border-radius: 8px;
+    border: #204E51 solid 2px;
+    font-size: 1.3em; 
+    margin-left: 30px; 
+}
+#btnseeAll{
+   padding: 5px 30px;
+    background-color: #204E51;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.3em;
+     margin-left: 20px; 
+    margin-top: 100px;  
+}
+.section-six{
+    display: flex;
+}
+.ben-left{
+    width: 30%;
+    margin-left: 40px;
+}
+.ben-left h1{
+    padding-top: 80px;
+    padding-left: 40px;
+    color:#204E51;
+    font-family: 3em;
+}
+.ben-left p{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+#beni{
+  padding: 5px 40px;
+    background-color: #204E51;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.3em;
+     margin-left: 30px; 
+    margin-top: 40px;  
+}
+
+.ben-right{
+    width: 20%;
+    height:350px;
+    background-color: #204E51;
+    margin-top: 30px;
+    margin-left: 140px;
+    border-radius: 20px;
+    border: none;       
+}
+
+.ben-right i{
+    font-size: 2em;
+    color: white;
+    margin-top: 30px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.ben-right p{
+    color: white;
+    margin-left: 80px;   
+}
+
+.testp h1{
+    padding-top: 90px;
+    text-align: center;
+    color:#204E51;
+    font-family: 4em;
+}
+.testp p{
+   /* margin-left:400px ; */
+    margin-top: 24px;
+    font-size: 1em;  
+    text-align: center;
+}
+
+/* section 4 */
+.h1zndp{
+    text-align: center;
+    margin: 90px 0;
+}
+.h1zndp h1{
+    color: #204E51;
+    font-size: 4em;
+}
+.box-ser{
+    background-color: #c3b1b1;
+    /* width: 300px; */
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    border-radius: 30px;
+}
+
+.box-ser i{
+    font-size: 2em;
+}
+
+.box-ser h1{
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.our-ser{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px ;
+    gap: 30px;
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+
+/*  section 5 */
+.testimonial{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card{
+    background-color: #204E51;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.card img{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.istar{
+    color: orange;
+    /* gap: 20px; */
+    margin-left: 380px;
+    margin-top: -220px;   
+}
+.handpt{
+    /* text-align: center; */
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+.handpt h2{
+    color: white;
+    padding-left: 290px;
+}
+.handpt #hnd{
+    color: white;
+    padding-top: 10px;
+    padding-right: 270px;
+}
+.handpt p{
+    padding-left: 290px;
+    padding-top: 20px;
+    color: white;
+    /* text-align: center; */
+}
+
+#imgOne{
+    background-color: #c3b1b1;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 10%;
+}#imgOne img{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 20px;
+}
+
+/* .section-eight */
+
+.section-eight{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.section-eight h1{
+    color: #204E51;
+}
+
+.section-eight p{
+    margin-top: 10px;
+}
+
+.lasteb img{
+    width: 290px;
+    margin-left: 30px;
+}
+
+.lasteb h3{
+    color: #204E51;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+.lasteb p{
+    padding-top: 20px;
+    font-size: medium;
+}
+
+.a{
+  /* padding-top: 90px; */
+}
+
+.section-nine{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #204E51;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+.log{
+   padding-top: 100px; 
+   /* padding-left: 40px; */
+}
+
+.log h1{
+    color: white;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.log p{
+    color: white;
+    padding-top: 10px;
+}
+
+.log i{
+    background-color: white;
+    margin-top: 30px;
+    font-size: 2em;
+   /* gap: 10px; */
+}
+
+.footer #pages{
+  padding-top: 120px;
+
+}
+.footer ul li{
+    list-style: none;
+    color: white;
+    font-size: 1.6em;
+
+}
+.footer #about{
+  padding-top: 120px;   
+}
+
+#pg{
+font-weight: 600;
+}
+#abt{
+   font-weight: 600; 
+}
